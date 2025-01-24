@@ -25,3 +25,8 @@ accountBalance *= 1.05; // 5% Interest
 console.log("Account Balance After Interest: $", accountBalance);
 accountBalance /= 2; // Split 
 console.log("Account Balance Split in Half: $", accountBalance);
+
+// Task 4: Customer Messaging
+let customerName = "Sebastian Bravo";
+let welcomeMessage = "Welcome, " + customerName + "! We're thrilled to have you join our community!";
+console.log(welcomeMessage);
