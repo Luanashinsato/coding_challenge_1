@@ -14,3 +14,14 @@ console.log("Product Price:", productPrice, "- Type:", typeof productPrice);
 var isAvailable = false;
 console.log("Is Available:", isAvailable, "- Type:", typeof isAvailable);
 
+// Task 3: Financial Transactions
+let accountBalance = 1500; // Inicial Balance 
+console.log("Initial Account Balance: $", accountBalance);
+accountBalance += 400; // Deposit 
+console.log("Account Balance After Deposit: $", accountBalance);
+accountBalance -= 200; // Withdrawal
+console.log("Account Balance After Withdrawal: $", accountBalance);
+accountBalance *= 1.05; // 5% Interest 
+console.log("Account Balance After Interest: $", accountBalance);
+accountBalance /= 2; // Split 
+console.log("Account Balance Split in Half: $", accountBalance);
